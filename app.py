@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 import pickle
 from sklearn.ensemble import GradientBoostingRegressor
-from catboost impo
+from catboost import catboostregressor
 
 st.set_page_config(page_title='Simulador',
                    page_icon='https://w7.pngwing.com/pngs/566/66/png-transparent-computer-icons-home-page-web-page-real-estate-icon-angle-building-text.png')
